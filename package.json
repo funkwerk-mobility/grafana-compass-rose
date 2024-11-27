@@ -1,0 +1,21 @@
+{
+  "name": "grafana-compass-rose",
+  "version": "1.0.0",
+  "description": "Compass/heading visualization for Grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch"
+  },
+  "devDependencies": {
+    "@grafana/data": "latest",
+    "@grafana/toolkit": "latest",
+    "@grafana/ui": "latest",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.4.0"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "panel",
+  "name": "Compass Rose",
+  "id": "compass-rose",
+  "info": {
+    "description": "Compass/heading visualization for Grafana",
+    "keywords": ["compass", "heading", "direction"],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.0.0",
+    "plugins": []
+  }
+}
